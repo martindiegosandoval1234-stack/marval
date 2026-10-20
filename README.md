@@ -17,22 +17,11 @@ npm run dev
 
 Abre [http://127.0.0.1:47221](http://127.0.0.1:47221).
 
-## Publicarlas en GitHub Pages
+## Dónde están publicadas
 
-El repositorio tiene que ser **público**. En un repositorio privado, GitHub pide iniciar sesión y Meta vuelve a marcar la URL como no válida.
+El sitio público es [https://martindiegosandoval1234-stack.github.io/marval/](https://martindiegosandoval1234-stack.github.io/marval/).
 
-1. Crea el repositorio en GitHub y sube esta carpeta a la rama `main`.
-2. En el repositorio: **Settings → Pages → Build and deployment → Deploy from a branch**.
-3. Branch: `main`. Folder: `/ (root)`. Guarda.
-4. Espera el aviso de que el sitio está publicado. La dirección tiene esta forma:
-
-```text
-https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/
-```
-
-Si el repositorio es un sitio de usuario (`TU-USUARIO.github.io`), la raíz es `https://TU-USUARIO.github.io/` y no lleva el nombre del repo.
-
-5. Abre la política en una ventana privada. Tiene que verse el texto completo sin pedir cuenta.
+GitHub Pages tiene que servir la rama `main` desde la carpeta `/ (root)`. El repositorio tiene que seguir siendo público.
 
 ## Qué pegar en Meta
 
@@ -40,9 +29,9 @@ En [Meta for Developers](https://developers.facebook.com/), entra en la app y ve
 
 | Campo | URL |
 | --- | --- |
-| URL de la política de privacidad | `https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/privacidad/` |
-| URL de las condiciones del servicio | `https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/condiciones/` |
-| Instrucciones de eliminación de datos | `https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/eliminacion/` |
+| URL de la política de privacidad | `https://martindiegosandoval1234-stack.github.io/marval/privacidad/` |
+| URL de las condiciones del servicio | `https://martindiegosandoval1234-stack.github.io/marval/condiciones/` |
+| Instrucciones de eliminación de datos | `https://martindiegosandoval1234-stack.github.io/marval/eliminacion/` |
 
 Guarda los cambios. Si el aviso tarda en desaparecer, espera unos minutos y vuelve a guardar. Puedes comprobar que el rastreador de Meta ve la página en el [Depurador de contenido compartido](https://developers.facebook.com/tools/debug/): la respuesta tiene que ser `200`.
 
